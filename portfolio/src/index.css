@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Alumni+Sans:wght@400;600&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Alumni Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  background-color: #D9D7CB;
+}
