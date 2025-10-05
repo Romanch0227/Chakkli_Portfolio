@@ -5,23 +5,26 @@ const TheCourtyard = () => {
   return (
     <div className="bg-[#3E3C3C]  text-[#D9D7CB] px-8">
       <Navbar />
-
-      <div className="flex flex-col items-center justify-center text-[200px] py-36">
-        <span className=" leading-[65%]">Hoardings, Standees &</span>
-        <span className="leading-[65%] mt-7">Socials for The Courtyard</span>
+      <div className="px-6 sm:px-8 py-12 sm:py-20">
+        <img
+          src="/Courtyard_Assets/img.png"
+          alt="Crafted Collection"
+          className="w-full"
+        />
       </div>
-      <div className="rounded-2xl pb-36">
+
+      <div className="rounded-2xl pb-10 md:pb-20 lg:pb-36">
         <img
           src="/Courtyard_Assets/COURTYARD_HOARDING_12-0.jpg"
           className="object-cover w-full"
         />
       </div>
-      <div className="pb-36">
-        <span className="text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
-        <div className="text-5xl font-semibold text-white py-10">
+      <div className="pb-10 md:pb-20 lg:pb-36">
+        <span className="sm:text-xl md:text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
+        <div className="text-3xl md:text-5xl font-semibold text-white py-10">
           The Courtyard – A Weekend Retreat, A Visual Journey
         </div>
-        <div className="text-4xl text-white pt-2 pb-4">
+        <div className="text-xl md:text-4xl text-white">
           The Courtyard is a weekend villa brand, designed as an escape into comfort and calm.
           <br />
           To bring their vision to life, I created promotional hoardings and standees that adorned
@@ -36,7 +39,7 @@ const TheCourtyard = () => {
           <br />
           From billboards to timelines, the narrative of The Courtyard was crafted to feel both
           inviting and aspirational.
-          <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
+          <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
             Instagram
           </div>
         </div>
@@ -109,7 +112,7 @@ const TheCourtyard = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-         <div className="col-span-12 md:col-span-5 flex flex-col h-full">
+        <div className="col-span-12 md:col-span-5 flex flex-col h-full">
           <img
             src="/Courtyard_Assets/Standee Mockup_01.jpg"
             alt="Standee 02"

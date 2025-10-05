@@ -2,6 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const MeetTheMaker = () => {
+   const handleDownload = (e) => {
+    e.preventDefault(); 
+
+    const link = document.createElement("a");
+    link.href = "/Binjal_Resume.pdf"; 
+    link.download = "Binjal_Resume.pdf";
+    link.click();
+  };
   return (
     <div className="px-4 sm:px-8 md:px-10 py-12 sm:py-16 md:py-20">
       {/* Section Header Image */}
@@ -15,7 +23,7 @@ const MeetTheMaker = () => {
         {/* Left: Profile Image */}
         <div className="basis-1/2">
           <img
-            src="/Home_Assets/9b92834dba5db2760928a8f3f665c5a65b4b8020.png"
+            src="/WhatsApp_Image.jpeg"
             alt="Profile"
             className="w-full h-auto rounded-2xl shadow-lg"
           />
@@ -31,12 +39,15 @@ const MeetTheMaker = () => {
           </p>
 
           <Link
-            to="/work"
-            className="bg-[#71706A] hover:bg-[#5a5954] transition-colors text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg md:text-xl font-medium mt-6 sm:mt-8 md:mt-10 self-start"
+            to="/#"
+             onClick={handleDownload}
+            className="bg-[#71706A] hover:bg-[#5a5954] transition-colors text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-base sm:text-lg md:text-xl font-medium mt-6 sm:mt-8 md:mt-10 
+               self-center sm:self-start"
           >
             View My Resume
           </Link>
         </div>
+
       </div>
     </div>
   );

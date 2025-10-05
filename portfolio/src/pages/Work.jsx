@@ -92,14 +92,14 @@ const Work = () => {
           >
             {/* Left Text */}
             <div className="md:col-span-4 flex flex-col gap-4 order-1">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl">
+              <h2 className="text-3xl sm:text-4xl lg:text-4xl">
                 {element.leftContent.title}
               </h2>
-              <div className="flex flex-wrap gap-2 text-sm sm:text-base md:text-lg">
+              <div className="flex flex-wrap gap-2 text-sm sm:text-base md:text-[15px]">
                 {element.leftContent.subTitles.map((x, subIndex) => (
                   <span
                     key={subIndex}
-                    className="border border-white py-1 px-3 rounded-xl hover:bg-[#D9D7CB] hover:text-[#3E3C3C] transition duration-300"
+                    className="border border-white py-1 px-3 rounded-xl hover:bg-[#D9D7CB] hover:text-[#3E3C3C] transition duration-300 "
                   >
                     {x}
                   </span>
@@ -112,19 +112,27 @@ const Work = () => {
               <img
                 src={element.image}
                 alt={element.leftContent.title}
-                className="w-full max-w-md md:max-w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover rounded-xl shadow-md"
+                className="w-[60%] sm:h-[800px] sm:w-[100%] md:h-[230px] md:w-[70%] lg:h-[350px] object-cover rounded-xl shadow-md"
               />
             </div>
 
             {/* Link */}
-            <div className="md:col-span-4 flex items-start justify-start md:justify-end order-3">
+            <div className="order-3 flex items-start justify-center sm:justify-center md:justify-end md:col-span-4">
               <Link
                 to={element.path}
-                className="text-lg sm:text-xl md:text-2xl border border-white py-2 px-4 rounded-xl hover:bg-[#D9D7CB] hover:text-[#3E3C3C] transition duration-300"
+                className="inline-flex items-center justify-center 
+               text-sm sm:text-base md:text-[15px]
+               px-5 py-2 sm:px-6 sm:py-2.5 md:px-5 md:py-2
+               border border-white rounded-xl
+               hover:bg-[#D9D7CB] hover:text-[#3E3C3C]
+               transition duration-300
+               text-center whitespace-nowrap"
               >
                 VIEW MY PROJECT
               </Link>
             </div>
+
+
           </motion.section>
 
           {/* Divider */}

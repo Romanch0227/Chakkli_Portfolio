@@ -5,22 +5,25 @@ const AdvertisingAgency = () => {
     <div className="bg-[#3E3C3C]  text-[#D9D7CB] px-8">
       <Navbar />
 
-      <div className="flex flex-col items-center justify-center text-[200px] py-36">
-        <span className=" leading-[65%]">Social Media for</span>
-        <span className="leading-[65%] mt-7">Advertising Agency</span>
+       <div className="px-6 sm:px-8 py-12 sm:py-20">
+        <img
+          src="/Advertising_Assets/img.png"
+          alt="Crafted Collection"
+          className="w-full"
+        />
       </div>
-      <div className="rounded-2xl pb-36">
+      <div className="rounded-2xl pb-10 md:pb-20 lg:pb-36">
         <img
           src="/Advertising_Assets/Branding.jpg"
           className="rounded-lg object-cover"
         />
       </div>
-      <div className="pb-36">
-        <span className="text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
-        <div className="text-5xl font-semibold text-white py-10">
+      <div className="pb-10 md:pb-20 lg:pb-36">
+        <span className="sm:text-xl md:text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
+        <div className="text-3xl md:text-5xl font-semibold text-white py-10">
           Bridging Brands Across the Chasm
         </div>
-        <div className="text-4xl text-white">
+        <div className="text-xl md:text-4xl text-white">
           This social media grid was created for an advertising agency with one big, bold concept:
           the chasm.
           <br />

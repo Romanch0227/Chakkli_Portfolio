@@ -67,7 +67,7 @@ const SelectedWork = forwardRef((_props, ref) => {
             key={index}
             ref={(el) => (imageRefs.current[index] = el)}
             data-index={index}
-            className={`flex flex-col items-start transform transition-all duration-700 ease-out ${
+            className={`flex flex-col items-center sm:items-start transform transition-all duration-700 ease-out ${
               visibleIndexes.includes(index)
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -76,9 +76,9 @@ const SelectedWork = forwardRef((_props, ref) => {
             <img
               src={item.src}
               alt={item.label}
-              className="w-full h-[250px] sm:h-[350px] md:h-[350px] lg:h-[500px] xl:h-[600px] object-cover rounded-2xl shadow-lg"
+              className="w-full h-[600px] sm:h-[350px] md:h-[350px] lg:h-[500px] xl:h-[600px] object-cover rounded-2xl shadow-lg"
             />
-            <div className="mt-3 sm:mt-4 text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
+            <div className="mt-3 sm:mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold">
               {item.label}
             </div>
           </Link>

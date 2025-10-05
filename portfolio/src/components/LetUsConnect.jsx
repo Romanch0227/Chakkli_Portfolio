@@ -66,7 +66,7 @@ const LetUsConnect = () => {
         {/* Submit Button */}
         <button
           type="submit"
-          className="bg-[#71706A] text-white rounded-full px-6 py-2 hover:bg-gray-700 transition text-lg sm:text-xl md:text-2xl my-10 sm:my-14 md:my-20 self-center"
+          className="bg-[#71706A] text-white rounded-full px-6 py-2 hover:bg-gray-700 transition text-lg sm:text-xl md:text-2xl my-10 sm:my-14 self-center"
         >
           SEND
         </button>
