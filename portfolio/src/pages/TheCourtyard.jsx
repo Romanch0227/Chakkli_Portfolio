@@ -21,24 +21,29 @@ const TheCourtyard = () => {
       </div>
       <div className="pb-10 md:pb-20 lg:pb-36">
         <span className="sm:text-xl md:text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
-        <div className="text-3xl md:text-5xl font-semibold text-white py-10">
+        <div className="text-3xl md:text-5xl font-semibold text-white py-2 sm:py-4 md:my-6 lg:my-8 break-words">
           The Courtyard – A Weekend Retreat, A Visual Journey
         </div>
-        <div className="text-xl md:text-4xl text-white">
-          The Courtyard is a weekend villa brand, designed as an escape into comfort and calm.
-          <br />
-          To bring their vision to life, I created promotional hoardings and standees that adorned
-          the streets of Ahmedabad—inviting
-          <br />
-          passersby to imagine their own retreat.
-          <br />
-          <br />
-          Beyond the outdoors, I also managed their social media for several months.
-          <br /> Each month carried a fresh concept, woven into visuals and stories that echoed the
-          brand’s essence.
-          <br />
-          From billboards to timelines, the narrative of The Courtyard was crafted to feel both
-          inviting and aspirational.
+        <div className="text-xl md:text-4xl text-white break-words">
+          <p>
+            The Courtyard is a weekend villa brand, designed as an escape into comfort and calm.
+            <br />
+            To bring their vision to life, I created promotional hoardings and standees that adorned
+            the streets of Ahmedabad—inviting
+            <br />
+            passersby to imagine their own retreat.
+            <br />
+          </p>
+          <p>
+            <br />
+            Beyond the outdoors, I also managed their social media for several months.
+            <br /> Each month carried a fresh concept, woven into visuals and stories that echoed the
+            brand’s essence.
+            <br />
+            From billboards to timelines, the narrative of The Courtyard was crafted to feel both
+            inviting and aspirational.
+          </p>
+
           <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
             Instagram
           </div>

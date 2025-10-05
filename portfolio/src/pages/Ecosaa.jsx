@@ -4,7 +4,7 @@ const Ecosaa = () => {
   return (
     <div className="bg-[#3E3C3C]  text-[#D9D7CB] px-8">
       <Navbar />
-       <div className="px-6 sm:px-8 py-12 sm:py-20">
+      <div className="px-6 sm:px-8 py-12 sm:py-20">
         <img
           src="/Ecosaa_Assets/img.png"
           alt="Crafted Collection"
@@ -16,26 +16,30 @@ const Ecosaa = () => {
       </div>
       <div className="pb-10 md:pb-20 lg:pb-36">
         <span className="sm:text-xl md:text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
-        <div className="text-3xl md:text-5xl font-semibold text-white py-10">
+        <div className="text-3xl md:text-5xl font-semibold text-white py-2 sm:py-4 md:my-6 lg:my-8 break-words">
           Ecosaa – Beauty in Every Imperfection{" "}
         </div>
-        <div className="text-xl md:text-4xl text-white">
-          Ecosaa is a skincare brand rooted in the Japanese philosophy of Wabi-Sabi—the belief that
-          nothing is perfect
-          <br />
-          and that beauty lives in imperfection. Just as nature carries its marks, so too does our
-          skin. We are reflections
-          <br />
-          of the natural world, and authenticity is our truest form of beauty.
-          <br />
-          <br />
-          Blending ecology and science, Ecosaa celebrates this harmony of nature and self. With this
-          philosophy in mind,
-          <br /> I crafted their digital presence—spanning social media, Amazon listings, digital
-          ads, website banners, and every
-          <br />
-          creative touchpoint. Each piece was designed to echo the brand’s essence: raw, real, and
-          beautifully imperfect.
+        <div className="text-xl md:text-4xl text-white break-words">
+          <p>
+            Ecosaa is a skincare brand rooted in the Japanese philosophy of Wabi-Sabi—the belief that
+            nothing is perfect
+            <br />
+            and that beauty lives in imperfection. Just as nature carries its marks, so too does our
+            skin. We are reflections
+            <br />
+            of the natural world, and authenticity is our truest form of beauty.
+            <br />
+          </p>
+          <p>
+            <br />
+            Blending ecology and science, Ecosaa celebrates this harmony of nature and self. With this
+            philosophy in mind,
+            <br /> I crafted their digital presence—spanning social media, Amazon listings, digital
+            ads, website banners, and every
+            <br />
+            creative touchpoint. Each piece was designed to echo the brand’s essence: raw, real, and
+            beautifully imperfect.
+          </p>
           <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
             Instagram
           </div>
@@ -89,7 +93,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-         {/* Card 6 */}
+        {/* Card 6 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_ADS_TONER.jpg"
@@ -97,7 +101,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-         {/* Card 7 */}
+        {/* Card 7 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_ADS_HYDRA-SERUM.jpg"
@@ -105,7 +109,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-         {/* Card 8 */}
+        {/* Card 8 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_ADS_BOOST-MOISTURISER.jpg"
@@ -113,7 +117,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-         {/* Card 9 */}
+        {/* Card 9 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_ADS_BOOST-SERUM.jpg"
@@ -121,7 +125,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-         {/* Card 10 */}
+        {/* Card 10 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_ADS_SCRUB.jpg"
@@ -130,7 +134,7 @@ const Ecosaa = () => {
           />
           <p className="text-2xl md:text-3xl text-white pt-2 pb-4">Few Digital Ads out of 16</p>
         </div>
-         {/* Card 11 */}
+        {/* Card 11 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_AMAZON-01.jpg"
@@ -138,7 +142,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-          {/* Card 12 */}
+        {/* Card 12 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_AMAZON-04.jpg"
@@ -146,7 +150,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-           {/* Card 13 */}
+        {/* Card 13 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_AMAZON-03.jpg"
@@ -154,7 +158,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-           {/* Card 14 */}
+        {/* Card 14 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_AMAZON-06.jpg"
@@ -162,7 +166,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-           {/* Card 15 */}
+        {/* Card 15 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_AMAZON-05.jpg"
@@ -170,7 +174,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
-           {/* Card 16 */}
+        {/* Card 16 */}
         <div className="col-span-12 flex flex-col h-full">
           <img
             src="/Ecosaa_Assets/ECOSAA_AMAZON-02.jpg"
@@ -178,7 +182,7 @@ const Ecosaa = () => {
             className="w-full h-full rounded-lg object-cover"
           />
           <p className="text-2xl md:text-3xl text-white pt-2 ">Few Amazon Creatives out of 16</p>
-          
+
         </div>
       </div>
     </div>

@@ -109,11 +109,13 @@ const Work = () => {
 
             {/* Image */}
             <div className="md:col-span-4 flex justify-center order-2">
-              <img
-                src={element.image}
-                alt={element.leftContent.title}
-                className="w-[60%] sm:h-[800px] sm:w-[100%] md:h-[230px] md:w-[70%] lg:h-[350px] object-cover rounded-xl shadow-md"
-              />
+              <div className="w-full max-w-[180px] sm:max-w-[220px] md:max-w-[250px] aspect-[3/4]">
+                <img
+                  src={element.image}
+                  alt={element.leftContent.title}
+                  className="w-full h-full object-cover rounded-xl shadow-md"
+                />
+              </div>
             </div>
 
             {/* Link */}

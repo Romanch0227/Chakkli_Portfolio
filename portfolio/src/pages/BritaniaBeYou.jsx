@@ -20,20 +20,22 @@ const BritaniaBeYou = () => {
       </div>
       <div className="pb-10 md:pb-20 lg:pb-36">
         <span className="sm:text-xl md:text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
-        <div className="text-3xl md:text-5xl font-semibold text-white py-10">
+        <div className="text-3xl md:text-5xl font-semibold text-white py-2 sm:py-4 md:my-6 lg:my-8 break-words">
           Britannia Be You – Power in Every Post
         </div>
-        <div className="text-xl md:text-4xl text-white">
-          Britannia Be You is more than just a protein bar—it’s energy, confidence, and
-          individuality wrapped
-          <br />
-          in every bite. I had the opportunity to shape its digital voice through social media,
-          crafting content
-          <br />
-          that was as vibrant and dynamic as the brand itself. Each post was designed to inspire
-          strength,
-          <br />
-          celebrate authenticity, and connect with an audience always on the move.
+        <div className="text-xl md:text-4xl text-white break-words">
+          <p>
+            Britannia Be You is more than just a protein bar—it’s energy, confidence, and
+            individuality wrapped
+            <br />
+            in every bite. I had the opportunity to shape its digital voice through social media,
+            crafting content
+            <br />
+            that was as vibrant and dynamic as the brand itself. Each post was designed to inspire
+            strength,
+            <br />
+            celebrate authenticity, and connect with an audience always on the move.
+          </p>
           <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
             Instagram
           </div>

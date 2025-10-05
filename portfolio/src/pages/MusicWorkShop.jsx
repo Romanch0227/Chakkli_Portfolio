@@ -14,29 +14,27 @@ const MusicWorkShop = () => {
       </div>
 
       <div className="rounded-2xl pb-10 md:pb-20 lg:pb-36">
-        <img src="/Music_Assets/06d17a73732294692701b63223e4e18ec1a3cbb5.jpg" className="rounded-lg"/>
+        <img src="/Music_Assets/06d17a73732294692701b63223e4e18ec1a3cbb5.jpg" className="rounded-lg" />
       </div>
-      <div className="pb-10 md:pb-20 lg:pb-36">
-        <span className="sm:text-xl md:text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl">Details</span>
-        <div className="text-3xl md:text-5xl font-semibold text-white py-10">
+      <div className="pb-10 md:pb-20 lg:pb-36 px-4 sm:px-6 md:px-10">
+        <span className="sm:text-xl md:text-2xl px-4 py-2 bg-[#D9D9D9] text-black rounded-2xl inline-block">
+          Details
+        </span>
+        <div className="text-3xl md:text-5xl font-semibold text-white py-2 sm:py-4 md:my-6 lg:my-8 break-words">
           A Hypothetical Project, Crafted Down to the Last Detail
         </div>
-        <div className="text-xl md:text-4xl text-white">
-          This project may have been hypothetical, but every detail was deliberate.
-          <br />
-          Each illustration carries a story, and the color palette?
-          <br />
-          Borrowed from the warm whispers of a wooden guitar.
-          <br />
-          Every page of this brochure was hand-crafted by yours truly—
-          <br />
-          from the tiniest linework to the soft hum of sound waves dancing in the background.
-          <br />
-          Even the words you’re reading now were spun straight from my own pen.
-          <br />
+
+        <div className="text-xl md:text-4xl text-white break-words">
+          This project may have been hypothetical, but every detail was deliberate.<br />
+          Each illustration carries a story, and the color palette?<br />
+          Borrowed from the warm whispers of a wooden guitar.<br />
+          Every page of this brochure was hand-crafted by yours truly—<br />
+          from the tiniest linework to the soft hum of sound waves dancing in the background.<br />
+          Even the words you’re reading now were spun straight from my own pen.<br />
           Call it design, call it storytelling— Let’s just say, I enjoyed every minute of making it.
         </div>
       </div>
+
       <div className="grid grid-cols-12 gap-4 pb-12">
         {/* First Row: Left stacked, Right single */}
         <div className="col-span-12 md:col-span-5 flex flex-col gap-4">
