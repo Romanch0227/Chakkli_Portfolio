@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 const TheCourtyard = () => {
   return (
@@ -43,10 +44,11 @@ const TheCourtyard = () => {
             From billboards to timelines, the narrative of The Courtyard was crafted to feel both
             inviting and aspirational.
           </p>
-
-          <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
-            Instagram
-          </div>
+          <Link to="https://www.instagram.com/da.buildcon?igsh=NHcyMXAxMHpjbm5y" target="_blank">
+            <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
+              Instagram
+            </div>
+          </Link>
         </div>
       </div>
       <div className="grid grid-cols-12 gap-6 pb-8">

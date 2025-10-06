@@ -95,7 +95,7 @@ const Work = () => {
               <h2 className="text-3xl sm:text-4xl lg:text-4xl">
                 {element.leftContent.title}
               </h2>
-              <div className="flex flex-wrap gap-2 text-sm sm:text-base md:text-[15px]">
+              <div className="flex flex-wrap gap-2 text-sm sm:text-base md:text-[18px]">
                 {element.leftContent.subTitles.map((x, subIndex) => (
                   <span
                     key={subIndex}
@@ -108,13 +108,17 @@ const Work = () => {
             </div>
 
             {/* Image */}
+
             <div className="md:col-span-4 flex justify-center order-2">
               <div className="w-full max-w-[180px] sm:max-w-[220px] md:max-w-[250px] aspect-[3/4]">
-                <img
-                  src={element.image}
-                  alt={element.leftContent.title}
-                  className="w-full h-full object-cover rounded-xl shadow-md"
-                />
+                <Link to={element.path}>
+                  <img
+                    src={element.image}
+                    alt={element.leftContent.title}
+                    className="w-full h-full object-cover rounded-xl shadow-md"
+                  />
+                </Link>
+
               </div>
             </div>
 
@@ -123,7 +127,7 @@ const Work = () => {
               <Link
                 to={element.path}
                 className="inline-flex items-center justify-center 
-               text-sm sm:text-base md:text-[15px]
+               text-sm sm:text-base md:text-[20px]
                px-5 py-2 sm:px-6 sm:py-2.5 md:px-5 md:py-2
                border border-white rounded-xl
                hover:bg-[#D9D7CB] hover:text-[#3E3C3C]

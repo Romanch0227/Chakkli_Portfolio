@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const BritaniaBeYou = () => {
@@ -36,9 +37,12 @@ const BritaniaBeYou = () => {
             <br />
             celebrate authenticity, and connect with an audience always on the move.
           </p>
-          <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
-            Instagram
-          </div>
+          <Link to="https://www.instagram.com/britannia_beyou?igsh=aWFiOGduMjk3NzNu" target="_blank">
+            <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
+              Instagram
+            </div>
+          </Link>
+
         </div>
       </div>
       <div className="grid grid-cols-12 gap-6">

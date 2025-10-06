@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const Jivraj9 = () => {
@@ -38,9 +39,13 @@ const Jivraj9 = () => {
             <br />
             was brewed with the same care and authenticity as their tea.
           </p>
-          <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
-            Instagram
-          </div>
+
+          <Link to="https://www.instagram.com/jivraj9tea?igsh=MXZ2bno3OXJtbzN0bw==" target="_blank">
+            <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
+              Instagram
+            </div>
+          </Link>
+
         </div>
       </div>
       <div className="grid grid-cols-12 gap-8 items-stretch pb-8">

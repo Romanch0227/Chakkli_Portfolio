@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const SureshZaveri = () => {
@@ -37,10 +38,11 @@ const SureshZaveri = () => {
             <br />
             innovation, where every jewel told its own tale of beauty.
           </p>
-
-          <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
-            Instagram
-          </div>
+          <Link to="https://www.instagram.com/sureshzaveri_ahmedabad?igsh=bjVjbm5jemx2NGNr" target="_blank">
+            <div className=" border border-[#D9D9D9] w-fit rounded-2xl p-2 sm:text-xl md:text-2xl mt-10 hover:bg-[#D9D9D9] hover:text-[#3E3C3C] transition duration-300">
+              Instagram
+            </div>
+          </Link>
         </div>
       </div>
       <div className="grid grid-cols-12 gap-6 items-stretch pb-4">
